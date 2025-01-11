@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS musician(
 );
 
 
-# Жанры и испорлнители
+# Жанры и исполнители
 
 CREATE TABLE IF NOT EXISTS genre_musician(
     musician_id INTEGER REFERENCES musician(musician_id),
